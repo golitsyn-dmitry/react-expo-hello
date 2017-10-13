@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "hello-world",
+    "description": "An empty new project",
+    "slug": "hello-world",
+    "privacy": "public",
+    "sdkVersion": "21.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#C3FFCC",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "backgroundColor": "#C3FFCC"
+    },     
+    "androidStatusBar": {
+      "barStyle": "light-content"
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "android": {
+      "package": "com.thebestcompany.helloworld"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
